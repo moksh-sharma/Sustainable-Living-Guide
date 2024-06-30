@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sustainable Living Guide</title>
+    <link rel="stylesheet" type="text/css" href="main/style.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body onload="load()">
+
+    <div class="progress"></div>
+    <div class="clock">
+        <div>
+            <span id="hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+        <div>
+            <span id="minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+        <div>
+            <span id="seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+        <div>
+            <span id="ampm">AM</span>
+        </div>
+    </div>
+
+
+
+    <div id="lawyerModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Importance</h3>
+            <p>Sustainable development is a holistic approach to growth that seeks to balance economic prosperity,
+                social equity, and
+                environmental protection. It aims to meet the needs of the present without compromising the ability of
+                future
+                generations to meet their own needs. This involves promoting economic activities that do not deplete
+                natural resources,
+                ensuring social inclusion and equality, and protecting the environment from degradation. Key areas of
+                focus include
+                renewable energy, water and sanitation, food security, health, education, sustainable cities, climate
+                action, and
+                biodiversity. By integrating these elements, sustainable development strives to create resilient
+                communities that can
+                adapt to changing conditions while maintaining a healthy and productive planet for future generations.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div id="politicsModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Achieving </h3>
+            <p>Achieving sustainable development requires a comprehensive and collaborative approach. Governments must
+                implement and
+                enforce policies that promote environmental protection, renewable energy, and sustainable agriculture,
+                while also
+                encouraging businesses to adopt eco-friendly practices and technologies. International cooperation is
+                essential to
+                address global challenges such as climate change and biodiversity loss. Education and public awareness
+                campaigns can
+                empower individuals and communities to make sustainable choices in their daily lives. Investments in
+                green technologies,
+                sustainable infrastructure, and inclusive social programs can drive economic growth while ensuring
+                social equity and
+                environmental stewardship. By integrating these strategies, societies can create a sustainable future
+                that balances
+                economic prosperity, social well-being, and environmental health.</p>
+
+        </div>
+
+    </div>
+
+    <div id="freedomModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Neccessity</h3>
+            <p>Sustainable development is important because it ensures that we meet our current needs without
+                compromising the ability
+                of future generations to meet theirs. It addresses critical issues such as environmental degradation,
+                climate change,
+                and resource depletion by promoting the responsible use of natural resources and the protection of
+                ecosystems.
+                Sustainable development also fosters economic growth that is inclusive and equitable, reducing poverty
+                and improving the
+                quality of life for all people. Additionally, it emphasizes social inclusion, ensuring that everyone has
+                access to basic
+                services, education, and opportunities, thereby promoting social justice and reducing inequalities. By
+                balancing
+                economic, social, and environmental goals, sustainable development creates a resilient and adaptable
+                society capable of
+                facing future challenges.</p>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="navbar">
+            <h3>Sustainable Living Guide</h3>
+            <nav class="menu">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="tip/index.html">Tips</a></li>
+                    <li><a href="Quiz/index.html">Quiz</a></li>
+                    <li><a href="to-do-list/index.html">To-Do List</a></li>
+                    <li><a href="E-Commerce/public/index.html">Shop Now</a></li>
+                    <li><a href="Blog/index.html">Blog</a></li>
+                    <li><a href="About/index.html">About</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+
+        <div class="home" id="home">
+            <div class="text">
+                <h3></h3>
+                <p class="txt-type" data-wait="3000"
+                    data-words='["Reduce Waste","Energy Efficiency","Sustainable Transport","Ethical Shopping","Eco-friendly Habits","Green Energy","Zero Waste","Conscious Consumption","Water Conservation"]'>
+                </p>
+            </div>
+            <div class="graphic">
+                <img src="main/1.jpg">
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M12 2c3.309 0 6 2.691 6 6v8c0 3.309-2.691 6-6 6s-6-2.691-6-6v-8c0-3.309 2.691-6 6-6zm0-2c-4.418 0-8 3.582-8 8v8c0 4.418 3.582 8 8 8s8-3.582 8-8v-8c0-4.418-3.582-8-8-8zm0 9c-.829 0-1.5-.672-1.5-1.5s.671-1.5 1.5-1.5 1.5.672 1.5 1.5-.671 1.5-1.5 1.5z" />
+                </svg></a>
+        </div>
+
+
+        <div class="about" id="about">
+            <h3>Sustainable Living</h3>
+            <div class="card-layout">
+                <div class="card lawyer">
+                    <div class="heading">
+                        <h3>Why</h3>
+                    </div>
+                    <p>Sustainable living means understanding how our lifestyle choices impact the world around us and
+                        finding ways for
+                        everyone to live better and lighter. Applying a ‘people lens’ to sustainability is new, timely
+                        and opportunities are great. Sustainable living and lifestyles
+                        for the first time appear in the Sustainable Development Goals (4 Education and 12.8 Responsible
+                        Consumption). UN
+                        Environment Programme is at the forefront of looking into what sustainable lifestyles are and
+                        how decision-making can be
+                        better harnessed for sustainability. How can governments and business better support and measure
+                        change?
+                    </p>
+                    <button href="#" id="lawyerReadMore">Read More</button>
+                </div>
+                <div class="card political">
+                    <div class="text">
+                        <h3>How</h3>
+                        <p>1. Embrace Renewable Energy. <br> <br>
+                            2. Promote Sustainable Transportation. <br> <br>
+                            3. Practice Waste Reduction and Recycling. <br> <br>
+                            4. Support Sustainable Agriculture. <br> <br>
+                            5. Advocate for Conservation. <br> <br>
+                            6. Educate and Raise Awareness. <br> <br>
+                        </p>
+
+                        <button id="politicsReadMore">Read More</button>
+                    </div>
+                </div>
+                <div class="card freedom">
+                    <h3>Is it neccessary?</h3>
+                    <p>Sustainable development aims to reduce environmental degradation and promote the conservation of
+                        natural resources. By
+                        focusing on renewable resources and reducing pollution, it helps preserve ecosystems and
+                        biodiversity.</p>
+                    <p>It encourages economic growth that is inclusive and environmentally sustainable. By investing in
+                        green technologies and
+                        sustainable practices, economies can grow without depleting natural resources or causing
+                        long-term harm to the
+                        environment.</p>
+                    <button id="freedomReadMore">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="gallery" id="gallery">
+        <h3>Gallery</h3>
+        <div class="tiles">
+            <div class="row">
+                <div class="column">
+                    <div class="tile">
+                        <img src="main/2.jpg" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="main/3.jpg" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+
+                    <div class="tile">
+                        <img src="main/4.JPG" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="main/5.jpg" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="tile">
+                        <img src="main/6.jpg" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="main/7.png" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                    <div class="tile">
+                        <img src="main/8.jpg" class="animate">
+                        <div class="overlay">
+                            <div class="text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quotes" id="quotes">
+        <h3>Ideals</h3>
+        <div class="quotes-layout">
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>Be the change you wish to see in the world.</p>
+                </div>
+            </div>
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>Happiness is when what you think, what you say, and what you do are in harmony.</p>
+                </div>
+            </div>
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>The weak can never forgive. Forgiveness is the attribute of the strong.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quotes-layout">
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>Action expresses priorities.</p>
+                </div>
+            </div>
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>Strength does not come from physical capacity. It comes from an indomitable will.</p>
+                </div>
+            </div>
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>In a gentle way, you can shake the world.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quotes-layout">
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>Where there is love there is life.</p>
+                </div>
+            </div>
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>Earth provides enough to satisfy every man's needs, but not every man's greed.</p>
+                </div>
+            </div>
+            <div class="quote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                </svg>
+                <div class="content">
+                    <p>I will not let anyone walk through my mind with their dirty feet.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="read-more">
+				<a href="#">Read More</a>
+			</div> -->
+    </div>
+
+    <div class="accomplishments" id="accomplishments">
+        <h3>Quotes</h3>
+        <div class="qt">
+
+            <div class="quote" id="quote"></div>
+            <p class="author" id="author"></p>
+        </div>
+
+        <div class="swiper_container">
+            <div class="swiper_wrapper">
+                <div class="list">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="main/darkmode-js.min.js"></script>
+    <script src="main/jquery.min.js"></script>
+    <script src="main/prognroll.js"></script>
+    <script src="main/script.js"></script>
+    <script src="main/scroll.js"></script>
+    <script src="random-quote-generator/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Living Tips</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Sustainable Living Tips</h1>
+            <p>Get personalized tips for sustainable living!</p>
+        </header>
+        <main>
+            <form id="tipsForm">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label>Select sustainable living interests:</label>
+                    <div class="checkbox-group">
+                        <div>
+                            <input type="checkbox" id="reduceWaste" name="interest" value="reduceWaste">
+                            <label for="reduceWaste">Reduce Waste</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="energyEfficiency" name="interest" value="energyEfficiency">
+                            <label for="energyEfficiency">Energy Efficiency</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sustainableTransport" name="interest"
+                                value="sustainableTransport">
+                            <label for="sustainableTransport">Sustainable Transport</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ethicalShopping" name="interest" value="ethicalShopping">
+                            <label for="ethicalShopping">Ethical Shopping</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ecoFriendlyHabits" name="interest" value="ecoFriendlyHabits">
+                            <label for="ecoFriendlyHabits">Eco-friendly Habits</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="greenEnergy" name="interest" value="greenEnergy">
+                            <label for="greenEnergy">Green Energy</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="zeroWaste" name="interest" value="zeroWaste">
+                            <label for="zeroWaste">Zero Waste</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="consciousConsumption" name="interest"
+                                value="consciousConsumption">
+                            <label for="consciousConsumption">Conscious Consumption</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="sustainableFood" name="interest" value="sustainableFood">
+                            <label for="sustainableFood">Sustainable Food Choices</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="waterConservation" name="interest" value="waterConservation">
+                            <label for="waterConservation">Water Conservation</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="communityEngagement" name="interest" value="communityEngagement">
+                            <label for="communityEngagement">Community Engagement</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="reduceCarbonFootprint" name="interest"
+                                value="reduceCarbonFootprint">
+                            <label for="reduceCarbonFootprint">Reduce Carbon Footprint</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Get Tips</button>
+            </form>
+            <div id="response" class="hidden">
+                <h2>Hello, <span id="userName"></span>!</h2>
+                <div id="tipResponses"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
